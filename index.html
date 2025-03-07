@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Navbar</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <!-- Logo -->
+    <div class="logo">
+      <a href="#">CompLab Infotech</a>
+    </div>
+
+    <!-- Menu Links -->
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Categories</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <input type="text" placeholder="Search products...">
+      <button><i class="fas fa-search"></i></button>
+    </div>
+
+    <!-- Icons -->
+    <div class="nav-icons">
+      <a href="#"><i class="fas fa-shopping-cart"></i></a>
+      <a href="#"><i class="fas fa-user"></i></a>
+      <a href="#"><i class="fas fa-heart"></i></a>
+    </div>
+
+    <!-- Mobile Menu Toggle -->
+    <div class="menu-toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </nav>
+
+<!---HERO SECTION-->
+<section class="hero">
+    <div class="hero-slider">
+      <div class="slide" style="background-image: url('Images/computerrepair.jpg');"></div>
+      <div class="slide" style="background-image: url('Images/LaptopRepair.jpg');"></div>
+      <div class="slide" style="background-image: url('Images/repair1.jpg');"></div>
+      <div class="slide" style="background-image: url('Images/repair2.jpg');"></div>
+    </div>
+    <div class="hero-content">
+      <h1>Upgrade Your Tech</h1>
+      <p>Discover the latest computers and laptops at unbeatable prices.</p>
+      <a href="#" class="shop-now-btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!---FEATURED PRODUCT SECITON-->
+  <section class="featured-products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <!-- Product 1 -->
+      <div class="product-card">
+        <img src="Images/Laptop1.jpg" alt="Product 1" class="product-image">
+        <h3 class="product-name">Dell</h3>
+        <p class="product-price">₹49,999.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+  
+      <!-- Product 2 -->
+      <div class="product-card">
+        <img src="Images/Laptop2.jpg" alt="Product 2" class="product-image">
+        <h3 class="product-name">HP</h3>
+        <p class="product-price">₹29,500.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+  
+      <!-- Product 3 -->
+      <div class="product-card">
+        <img src="Images/Laptop3.jpg" alt="Product 3" class="product-image">
+        <h3 class="product-name">Asus</h3>
+        <p class="product-price">₹59,200.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+  
+      <!-- Product 4 -->
+      <div class="product-card">
+        <img src="Images/Laptop1.jpg" alt="Product 4" class="product-image">
+        <h3 class="product-name">Lenovo</h3>
+        <p class="product-price">₹39,000.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+    <!---CATEGORY SECTION-->
+    <section class="categories">
+        <h2>Product Categories</h2>
+        <div class="category-grid">
+          <!-- RAM -->
+          <div class="category-card">
+            <i class="fas fa-memory"></i>
+            <h3>RAM</h3>
+          </div>
+    
+          <!-- SSD -->
+          <div class="category-card">
+            <i class="fas fa-hdd"></i>
+            <h3>SSD</h3>
+          </div>
+    
+          <!-- HDD -->
+          <div class="category-card">
+            <i class="fas fa-hard-drive"></i>
+            <h3>HDD</h3>
+          </div>
+    
+          <!-- Refurbished Laptops -->
+          <div class="category-card">
+            <i class="fas fa-laptop"></i>
+            <h3>Refurbished Laptops</h3>
+          </div>
+    
+          <!-- Laptop Battery -->
+          <div class="category-card">
+            <i class="fas fa-battery-full"></i>
+            <h3>Laptop Battery</h3>
+          </div>
+        </div>
+      </section>
+
+        <!---ABOUT US-->
+        <section class="about-us">
+            <div class="about-content">
+              <h2>About CompLab Infotech</h2>
+              <p class="intro">
+                Welcome to <strong>CompLab Infotech</strong>, your trusted partner for all your computer hardware and accessory needs. 
+                We specialize in providing high-quality products, including RAM, SSDs, HDDs, refurbished laptops, and laptop batteries, 
+                to help you get the most out of your devices.
+              </p>
+              <p class="unique">
+                What sets us apart is our commitment to quality, affordability, and exceptional customer service. 
+                We carefully curate our products to ensure they meet the highest standards, and our team is always here 
+                to assist you with expert advice and support.
+              </p>
+            </div>
+            <div class="about-image">
+              <img src="Images/Teamwork.jpg" alt="CompLab Infotech Team">
+            </div>
+          </section>
+
+            <!---CUSTOMER REVIEW-->
+            <section class="reviews">
+                <h2>What Our Customers Say</h2>
+                <div class="review-slider">
+                  <!-- Review 1 -->
+                  <div class="review-card active">
+                    <div class="user-avatar">
+                      <img src="avatar1.jpg" alt="User 1">
+                    </div>
+                    <div class="user-info">
+                      <h3>Mamta Giri</h3>
+                      <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <p class="feedback">
+                      "CompLab Infotech has the best products and customer service. My new SSD has made my laptop lightning fast!"
+                    </p>
+                  </div>
+            
+                  <!-- Review 2 -->
+                  <div class="review-card">
+                    <div class="user-avatar">
+                      <img src="avatar2.jpg" alt="User 2">
+                    </div>
+                    <div class="user-info">
+                      <h3>Hemlata Goswami</h3>
+                      <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                      </div>
+                    </div>
+                    <p class="feedback">
+                      "I bought a refurbished laptop, and it looks and works like new. Highly recommend CompLab Infotech!"
+                    </p>
+                  </div>
+            
+                  <!-- Review 3 -->
+                  <div class="review-card">
+                    <div class="user-avatar">
+                      <img src="avatar3.jpg" alt="User 3">
+                    </div>
+                    <div class="user-info">
+                      <h3>Lavish Giri</h3>
+                      <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <p class="feedback">
+                      "Great prices and fast shipping. My new RAM upgrade was a breeze to install, thanks to their helpful guides."
+                    </p>
+                  </div>
+            
+                  <!-- Review 4 -->
+                  <div class="review-card">
+                    <div class="user-avatar">
+                      <img src="avatar4.jpg" alt="User 4">
+                    </div>
+                    <div class="user-info">
+                      <h3>Kiran Goswami</h3>
+                      <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <p class="feedback">
+                      "Excellent service and top-notch products. My laptop battery replacement was quick and hassle-free."
+                    </p>
+                  </div>
+                </div>
+                <!-- Slider Controls -->
+                <div class="slider-controls">
+                  <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                  <button class="next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+              </section>
+
+                <!---SPECIAL OFFERS-->
+                <section class="special-offers">
+                    <div class="offer-banner">
+                      <div class="offer-content">
+                        <h2>Flash Sale!</h2>
+                        <p>Huge discounts on top products. Limited time only!</p>
+                        <div class="pricing">
+                          <span class="original-price">₹29,000.00</span>
+                          <span class="discounted-price">₹20,300.00</span>
+                          <span class="discount">30% OFF</span>
+                        </div>
+                        <div class="countdown-timer">
+                          <div class="timer-box">
+                            <span id="days">00</span>
+                            <span>Days</span>
+                          </div>
+                          <div class="timer-box">
+                            <span id="hours">00</span>
+                            <span>Hours</span>
+                          </div>
+                          <div class="timer-box">
+                            <span id="minutes">00</span>
+                            <span>Mins</span>
+                          </div>
+                          <div class="timer-box">
+                            <span id="seconds">00</span>
+                            <span>Secs</span>
+                          </div>
+                        </div>
+                        <button class="shop-now">Shop Now</button>
+                      </div>
+                    </div>
+                  </section>
+
+                  <!---CONTACT & SUPPORT-->
+                  <section class="contact-support">
+                    <h2>Contact & Support</h2>
+                    <div class="container">
+                      <!-- Contact Form -->
+                      <div class="contact-form">
+                        <h3>Get in Touch</h3>
+                        <form action="#" method="POST">
+                          <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                          </div>
+                          <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                          </div>
+                          <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="How can we help you?" rows="5" required></textarea>
+                          </div>
+                          <button type="submit" class="submit-button">Submit</button>
+                        </form>
+                      </div>
+                
+                      <!-- FAQ Section -->
+                      <div class="faq">
+                        <h3>Frequently Asked Questions</h3>
+                        <div class="faq-item">
+                          <button class="faq-question">How do I track my order?</button>
+                          <div class="faq-answer">
+                            <p>You can track your order by logging into your account and visiting the "Order History" section. You'll find a tracking link there.</p>
+                          </div>
+                        </div>
+                        <div class="faq-item">
+                          <button class="faq-question">What is your return policy?</button>
+                          <div class="faq-answer">
+                            <p>We offer a 30-day return policy. If you're not satisfied with your purchase, you can return it for a full refund or exchange.</p>
+                          </div>
+                        </div>
+                        <div class="faq-item">
+                          <button class="faq-question">How can I contact customer support?</button>
+                          <div class="faq-answer">
+                            <p>You can reach us via the contact form on this page, or email us directly at support@complabinfotech.com.</p>
+                          </div>
+                        </div>
+                        <div class="faq-item">
+                          <button class="faq-question">Do you offer international shipping?</button>
+                          <div class="faq-answer">
+                            <p>Yes, we ship to most countries worldwide. Shipping costs and delivery times vary depending on your location.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                    <!---FOOTER-->
+                    <footer class="footer">
+                        <div class="footer-container">
+                          <!-- Footer Links -->
+                          <div class="footer-links">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms & Conditions</a>
+                            <a href="#">Return Policy</a>
+                          </div>
+                    
+                          <!-- Social Media Icons -->
+                          <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                          </div>
+                    
+                          <!-- Copyright Text -->
+                          <div class="copyright">
+                            <p>&copy; 2023 CompLab Infotech. All rights reserved.</p>
+                          </div>
+                        </div>
+                      </footer>
+                  
+  <script src="script.js"></script>
+</body>
+</html>
